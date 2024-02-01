@@ -1,0 +1,31 @@
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\Manoj Goutham S\PSC\c-activity-sets\SET01\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem01.c, line 5.
+(gdb) n
+The program is not being run.
+(gdb) r
+Starting program: C:\Users\Manoj Goutham S\PSC\c-activity-sets\SET01/a.exe
+[New Thread 20024.0x3610]
+[New Thread 20024.0x3414]
+
+Breakpoint 1, main () at problem01.c:5
+5           printf("Manoj goutham s\n");
+(gdb) b main
+Note: breakpoint 1 also set at pc 0x40146e.
+Breakpoint 2 at 0x40146e: file problem01.c, line 5.
+(gdb) n
+Manoj goutham s
+6           return 0;
+(gdb) quit
+A debugging session is active.
+
+        Inferior 1 [process 20024] will be killed.
