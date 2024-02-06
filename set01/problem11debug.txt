@@ -1,0 +1,22 @@
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\Manoj Goutham S\PSC\c-activity-sets\set01\problem11.exe...done.
+(gdb) r
+Starting program: C:\Users\Manoj Goutham S\PSC\c-activity-sets\set01/.\problem11.exe
+[New Thread 14008.0x3d14]
+[New Thread 14008.0x667c]
+enter the 1st complex number
+enter the real num:1
+enter the imaginary num:2
+enter the 2nd complex number
+enter the real num:3
+enter the imaginary num:4
+the sum of  1+ 2i and  3+ 4i is  4 + 6i [Inferior 1 (process 14008) exited normally]
+(gdb) q
